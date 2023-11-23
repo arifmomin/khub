@@ -1,0 +1,541 @@
+/* --------------------Common CSS start------------------- */
+*{
+    padding: 0%;
+    margin: 0%;
+    outline: 0%;
+    box-sizing: border-box;
+}
+ul li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    display: inline-block;
+}
+.menu_row{
+    line-height: 90px;
+}
+img{
+    width: 100%;
+    max-width: 100%;
+    vertical-align: middle;
+}
+.container{
+    width: 1170px;
+    margin: 0% auto;
+}
+.clear{
+    clear: both;
+}
+/* --------------------Common CSS end------------------- */
+/* --------------------Main menu CSS start------------------- */
+#main_menu{
+    width: 100%;
+   position: absolute;
+}
+.menu_row .logo_col{
+    width: 30%;
+    float: left;
+}
+.fixed_menu{
+    position: sticky;
+    top: 0;
+    left: 0;
+}
+.menu_row .logo_col img{
+    width: 100px;
+    height: 25px;
+}
+.menu_row .text_menu{ 
+    width: 70%;
+    float: left;
+}
+.menu_row .text_menu ul{
+    float: right;
+}
+.menu_row .text_menu ul li{
+    float: left;
+}
+.menu_row .text_menu ul a{
+    margin-left: 42px;
+    font-size: 14px;
+    font-weight: 700;
+    font-family: 'Roboto', sans-serif;
+    color: #f5f5f5;
+    text-transform: uppercase;
+    transition: all linear .3s;
+ }
+.menu_row .text_menu ul a:hover{
+    color: #28b8d8;
+}
+/* --------------------Main menu end------------------- */
+/* --------------------banner part start------------------- */
+#banner{
+    background: url('../image/kubb.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding-top: 330px;
+    padding-bottom: 250px;
+}
+#banner .banner_text h1{
+   font-size: 50px;
+   font-weight: 700;
+   font-family: 'Roboto', sans-serif;
+   color: #ffff;
+   text-align: center;
+   /* padding-top:241px; */
+   text-transform: uppercase;
+}
+#banner h2{
+    font-size: 40px;
+    font-weight: 300;
+    font-family: 'Roboto Slab', serif;
+    color: #ffff;
+    text-align: center;
+    letter-spacing: 7px;
+    text-transform: uppercase;  
+}
+#banner .banner_text p{
+    font-size: 14px;
+    font-weight: 300;
+    font-family: 'Roboto Slab', serif;
+    color: #ffff;
+    text-align: center;
+}
+/* --------------------banner part end------------------- */
+/* =================service part satart================= */
+#about{
+
+    background: #f9f9f9;
+    padding-top: 80px;
+    padding-bottom: 84px;
+    height: 707px; 
+}
+.about_heading h2{
+   font-size: 30px;
+   font-weight: 300;
+   font-family: 'Roboto Slab', serif;
+   color: #717171;
+   text-align: center;
+   margin-bottom: 32px;
+}
+.about_heading p{
+    font-size: 14px;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+    color: #666666;
+    text-align: center;
+    margin-bottom: 81px;
+}
+.service_tag h2{
+    font-size: 18px;
+    font-weight: 700;
+    font-family: 'Roboto', sans-serif;
+    color: #444444;
+    text-align: center;
+    text-transform: uppercase;
+}
+.service_col{
+    width: 370px;
+    background: #ffffff;
+    padding: 15px;
+    border: 1px solid #e3e3e3;
+    float: left;
+    margin-top: 31px;
+    margin-bottom: 84px;
+    margin-right: 20px;
+}
+.services_text h2{
+    font-size: 17px;
+    font-weight: 700;
+    font-family: 'Roboto Slab', serif;
+    color: #444444;
+    text-align: center;
+    margin-top: 25px;
+}
+.services_text p{
+    font-size: 14px;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+    color: #666666;
+    text-align: center;
+    margin-top: 15px;
+}
+/* --------------------service part end------------------- */
+/* =================Shorts part satart================= */
+#short{
+    height: 591px;
+    background: #2c2c2c;
+}
+.shorts_text h2{
+font-size: 18px;
+font-weight: 700;
+font-family: 'Roboto', sans-serif;
+color: #d5d5d5;
+text-align: center;
+text-transform: uppercase;
+padding-top: 51px;
+padding-bottom: 44px;
+position: relative;
+}
+.shorts_text h2::after{
+    content: '';
+    position: absolute;
+    height: 1px;
+    width: 100px;
+    background: #535353;
+    top: 52%;
+    left: 29%;
+}
+.shorts_text h2::before{
+    content: '';
+    position: absolute;
+    height: 1px;
+    width: 100px;
+    background: #535353;
+    top: 52%;
+    right: 29%;
+}
+.shorts{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.shorts .shorts_img{
+    height: 326px;
+    width: 379px;
+    float: left;
+}
+
+.insta{
+   text-align: center;
+   margin-top: 60px;
+   
+}
+.insta a{
+    width: 177px;
+    height: 46px;
+    background: transparent;
+    text-align: center;
+    line-height: 46px;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+    color: #878787;
+    text-transform: uppercase;
+    border: 1px solid #797979;
+
+}
+
+/* --------------------Shorts part end------------------- */
+/* =================journal part satart================= */
+#journal{
+    padding-top: 77px;
+    padding-bottom: 84px;
+    background: #f9f9f9;
+    
+}
+.journal_text h2{
+    font-size: 18px;
+    font-weight: 700;
+    font-family: 'Roboto', sans-serif;
+    color: #444444;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+    position: relative;
+}
+.journal_text h2::after{
+    content: '';
+    position: absolute;
+    height: 1px;
+    width: 100px;
+    background: #535353;
+    top: 52%;
+    left: 33%;
+}
+.journal_text h2::before{
+    content: '';
+    position: absolute;
+    height: 1px;
+    width: 100px;
+    background: #535353;
+    top: 52%;
+    right: 33%;
+}
+
+.journal_col .journal_heading h2{
+    margin-top: 30px;
+    font-size: 16px;
+    font-weight: 700;
+    font-family: 'Roboto', sans-serif;
+    color: #444444;
+    text-align: center;
+}
+.journal_col .journal_heading h3{
+    margin-top: 12px;
+    margin-bottom: 25px;
+    font-size: 12px;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+    color: #acacac;
+    text-align: center;
+
+}
+.journal_col{
+    width: 368px;
+    /* padding: 20px auto; */
+    float: left;
+    background: #ffffff;
+    border: 1px solid #e3e3e3;
+    margin-right: 30px;
+}
+.journal_col:nth-child(3){
+    margin-right: 0%;
+}
+.journal_img .journal_text p{
+    font-size: 14px;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+    color: #666666;
+    margin: 27px 26px;
+    
+}
+.continue_reading .continue_col h2{
+    font-size: 11px;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+    color: #999999;
+    text-transform: uppercase;
+    position: relative;
+}
+
+.continue_reading .continue_col h2::after{
+    content: '';
+    height: 1px;
+    width: 100px;
+    background: #28b8d8;
+    position: absolute;
+    top: 100%;
+    left: 0%;
+    margin-top: 5px;
+}
+.continue_reading{
+    margin-top: 24px;
+    margin-left: 24px;
+    margin-bottom: 65px;
+}
+.reading_icon p{
+    font-size: 11px;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+    color: #acacac;
+    margin-left: 33px;
+}
+.continue_col {
+    width: 70%;
+    float: left;
+}
+.reading_icon{
+    width: 30%;
+    float: right;
+
+}
+.continue_reading .continue_col h3{
+    font-size: 11px;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+    color: #999999;
+   
+}
+.reading_icon .love{
+    margin-right: 4px;
+}
+
+/* --------------------journal part end------------------- */
+/* -------------------my service part start-------------------- */
+#portfolio{
+    
+    padding-bottom: 80px;
+    background: #f9f9f9;  
+}
+.portfolio_main_row .portfolio_col{
+    width: 50%;
+    float: left;
+    
+}
+.portfolio_main_row .portfolio_head h2{
+    font-size: 18px;
+    font-weight: 700;
+    font-family: 'Roboto', sans-serif;
+    color:#444444 ;
+    position: relative;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+}
+.portfolio_main_row .portfolio_head h2::after{
+    content: ''; 
+    position: absolute;
+    width: 100px;
+    height: 1px;
+    background: #d9d9d9;
+    top: 50%;
+    left: 33%;
+    
+}
+.portfolio_service_row .portfolio_head h2::after{
+    content: ''; 
+    position: absolute;
+    width: 100px;
+    height: 1px;
+    background: #d9d9d9;
+    top: 50%;
+    left: 24%;
+    
+}
+
+.portfolio_main_row .portfolio_service_row{
+    width: 50%;
+    float: right;
+}
+
+.portfolio_col .services_img{
+    width: 196px;
+    margin-right: 27px;
+    float: left;
+}
+.portfolio_col .portfolio_text h3{
+    font-size: 18px;
+    font-weight: 300;
+    font-family: 'Roboto Slab', serif;
+    color: #666666;
+    margin-bottom: 28px;
+    
+}
+.portfolio_col .portfolio_text p{
+    font-size: 14px;
+    font-weight: 400px;
+    font-family: 'Roboto', sans-serif;
+    color: #666666;
+    line-height: 23px;
+   
+}
+.portfolio_icon_list{
+    margin-bottom: 30px ;
+}
+.portfolio_icon_list .icon_img img{
+    width: 40px;
+    margin-bottom: 60px;
+}
+
+.portfolio_icon_list .icon_img{
+    float: left;
+    padding-right:24px ;
+  
+}
+
+.portfolio_icon_heading .portfolio_icon_text h2{
+    font-size: 17px;
+    font-weight: 700;
+    font-family: 'Roboto Slab', serif;
+    color: #444444;
+    margin-bottom: 16px;
+    
+}
+.portfolio_icon_text p{
+    font-size: 14px;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+    color: #787878;
+   
+}
+/* -------------------my service part end-------------------- */
+/* -----------------------last part start----------------------- */
+#footer{
+    background: #373737;
+    padding-bottom: 65px;
+}
+.footer_row .footer_col{
+width: 23%;
+margin-right: 23px;
+}
+.footer_row .footer_col{
+    float: left;
+}
+
+.footer_col .footer_heading h2{
+    font-size: 16px;
+    font-weight: 700;
+    font-family: 'Roboto', sans-serif;
+    color: #f0f0f0;
+    padding-top: 68px;
+    text-transform: uppercase;
+    
+}
+.footer_col .footer_heading p{
+    font-size: 14px;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+    color: #cacaca;
+    margin-top: 25px;
+    margin-bottom: 36px;
+    line-height: 20px;
+}
+
+.footer_data ul li a{
+    font-size: 14px;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+    color: #aeaeae;
+    line-height: 25px;
+
+}
+.footer_data ul li a .span_one{
+    margin-left: 16px;
+    
+}
+.footer_data ul li a .span_two{
+    margin-left: 30px;
+   
+}
+.footer_data_one ul li {
+    font-size: 14px;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+    color: #aeaeae;
+    line-height: 20px;
+}
+.footer_data_one ul li {
+    margin-top: 34px;
+    
+}
+.footer_data_two p span{
+    display: block;
+    font-size: 12px;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+    color: #929292;  
+}
+.footer_data_two p span{
+    line-height: 20px;
+}
+.footer_data_three p span{
+    display: block;
+    margin-top: 30px;
+    line-height: 20px;
+}
+/* -----------------------last part end------------------------ */
+/* ------------------------last part start------------------------- */
+#last_part{
+    padding: 40px 0px;
+    background: #333333;
+}
+#last_part .last_text p{
+    font-size: 14px;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+    color: #a4a4a4;
+
+}
+/* ------------------------last part end------------------------- */
